@@ -1,2 +1,2 @@
-"# programming-and-design-of-3D-game" 
-"# programming-and-design-of-3D-game" 
+
+### This repository is use for commit my homework
