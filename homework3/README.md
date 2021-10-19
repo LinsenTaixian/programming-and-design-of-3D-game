@@ -12,7 +12,7 @@
 
 设计图如下：
 
-![设计图](.\ch04-oo-design.png)
+![设计图](https://raw.githubusercontent.com/LinsenTaixian/programming-and-design-of-3D-game/main/homework3/ch04-oo-design.png)
 
 
 
