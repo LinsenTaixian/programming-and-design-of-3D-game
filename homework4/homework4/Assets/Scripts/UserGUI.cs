@@ -8,7 +8,6 @@ public class UserGUI : MonoBehaviour
 
     GUIStyle style;
     GUIStyle buttonStyle;
-    // GUIStyle pauseStyle;
     GUIStyle resultStyle;
 
     void Start()

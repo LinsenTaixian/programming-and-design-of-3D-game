@@ -19,11 +19,9 @@ public class DiskFactory : MonoBehaviour
         else
         {
             disk = GameObject.Instantiate<GameObject>(Resources.Load<GameObject>("Prefabs/disk"), Vector3.zero, Quaternion.identity);
-            disk.AddComponent<DiskData>(); 
+            disk.AddComponent<DiskData>();
         }
-        // round 1: 全是黄色disk，最慢 
-        // round 2: 40%可能出现黄色，60%可能出现红色（更快）
-        // round 3: 20%可能出现黄色，30%可能出现红色，50%可能出现黑色（更快 or 同时出现？）
+
         int start = 0;
         int selectedColor = Random.Range(start, round * 500);
 
